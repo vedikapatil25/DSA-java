@@ -18,5 +18,6 @@ public class PalindromeNumber {
         else {
             System.out.println("The given number is Not Palindrome");
         }
+        sc.close();
     }
 }
