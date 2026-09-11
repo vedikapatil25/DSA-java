@@ -10,5 +10,6 @@ public class CountDigits {
             count++;
         }
         System.out.println("Number of Digits are :" + count);
+        sc.close();
     }
 }

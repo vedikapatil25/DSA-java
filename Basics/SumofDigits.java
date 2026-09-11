@@ -10,6 +10,7 @@ public class SumofDigits {
             sum += n % 10;
             n = n/10;
         }
-        System.out.print("Sum of an Array is :" + sum);
+        System.out.print("Sum of an Digits is :" + sum);
+        sc.close();
     }
 }
