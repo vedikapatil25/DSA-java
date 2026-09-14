@@ -19,5 +19,6 @@ public class CountEvenOddDigits {
             n = n/10;
         }
         System.out.println("Even digits are :" + evenCount + " Odd digits are :" + oddCount);
+        sc.close();
     }
 }

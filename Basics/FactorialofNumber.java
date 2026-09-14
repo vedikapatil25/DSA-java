@@ -11,5 +11,6 @@ public class FactorialofNumber {
             fact = fact * i;
         }   
         System.out.println("Factorial of a given number is :" + fact);
+        sc.close();
     }
 }
