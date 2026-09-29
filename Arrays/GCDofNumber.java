@@ -1,4 +1,3 @@
-import java.util.HashSet;
 import java.util.Scanner;
 
 public class GCDofNumber {
@@ -32,5 +31,6 @@ public class GCDofNumber {
          int n2 = sc.nextInt();
          System.out.println("GCD of given numbers is : " + euclideanGcd(n1, n2));
          euclideanLcm(n1, n2);
+         sc.close();
     }
 }
